@@ -23,3 +23,5 @@ Thumbs.db
 
 # Local private evidence
 evidence/private/
+# Private Docker environment diagnostics
+evidence/docker-info-private.txt
