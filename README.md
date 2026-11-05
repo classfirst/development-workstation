@@ -16,7 +16,7 @@ Windows 11 환경에서 PowerShell, VS Code, Git, WSL 2, Docker Desktop을 설�
 | CPU 아키텍처 | AMD64 |
 | RAM | 32GB |
 | 터미널 및 쉘 | VS Code 통합 터미널 / Windows PowerShell |
-| PowerShell 버전 | 추가 확인 필요 |
+| PowerShell 버전 | 5.1.26100.9711 |
 | VS Code | 1.145.0 |
 | Git | 2.56.0.windows.4 |
 | WSL | 3.0.3.0 |
@@ -37,8 +37,8 @@ Windows 11 환경에서 PowerShell, VS Code, Git, WSL 2, Docker Desktop을 설�
 - [x] 바인드 마운트 변경 반영 검증
 - [x] Docker 볼륨 영속성 검증
 - [x] GitHub 저장소 생성 및 원격 연결
-- [ ] 터미널 및 권한 검증 증거 최종 정리
-- [ ] GitHub 첫 커밋 및 푸시
+- [x] 터미널 및 권한 검증 증거 최종 정리
+- [x] GitHub 첫 커밋 및 푸시
 - [ ] 공개 저장소 최종 검수
 
 ## 4. 프로젝트 구조
@@ -92,7 +92,15 @@ docker ps -a
 docker logs workstation-web
 docker stats --no-stream
 ```
+### Docker 운영 검증 증거
 
+- [Docker 버전](evidence/docker-version.txt)
+- [Docker hello-world 실행 로그](evidence/docker-hello-logs.txt)
+- [Docker 이미지 목록](evidence/web-images.txt)
+- [Docker 컨테이너 목록](evidence/web-containers.txt)
+- [Docker 웹 서버 로그](evidence/web-server-logs.txt)
+- [Docker 리소스 통계](evidence/web-stats.txt)
+- [터미널 및 권한 검증](evidence/terminal-permissions.txt)
 실행 결과는 `evidence/` 폴더에 보관합니다.
 
 ## 7. 바인드 마운트 검증

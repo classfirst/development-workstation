@@ -1,1 +1,2 @@
-﻿[{"Type":"bind","Source":"C:\\Users\\LG\\Documents\\development-workstation\\app","Destination":"/app","Mode":"","RW":true,"Propagation":"rprivate"}]
+﻿[{"Type":"bind","Source":"C:\\Users\\USERNAME\\Documents\\development-workstation\\app","Destination":"/app","Mode":"","RW":true,"Propagation":"rprivate"}]
+
