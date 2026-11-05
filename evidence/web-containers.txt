@@ -1,0 +1,3 @@
+﻿CONTAINER ID   IMAGE                 COMMAND                   CREATED          STATUS                      PORTS                      NAMES
+0cdb5d008a01   workstation-web:1.0   "python -m http.serv??   3 minutes ago    Up 3 minutes                127.0.0.1:8080->8000/tcp   workstation-web
+39670583053a   hello-world           "/hello"                  58 minutes ago   Exited (0) 58 minutes ago                              workstation-hello

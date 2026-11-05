@@ -1,0 +1,10 @@
+﻿docker : 172.17.0.1 - - [04/Nov/2026 09:47:23] "GET / HTTP/1.1" 200 -
+위치 줄:3 문자:1
++ docker logs workstation-web 2>&1 | Out-File ".\evidence\web-server-lo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (172.17.0.1 - - ...HTTP/1.1" 200 -:String) [], Remote 
+   Exception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+172.17.0.1 - - [04/Nov/2026 09:47:23] code 404, message File not found
+172.17.0.1 - - [04/Nov/2026 09:47:23] "GET /favicon.ico HTTP/1.1" 404 -

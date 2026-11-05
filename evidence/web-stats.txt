@@ -1,0 +1,2 @@
+﻿CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O     PIDS
+0cdb5d008a01   workstation-web   0.02%     17.6MiB / 15.37GiB   0.11%     4.8kB / 3.41kB   0B / 1.93MB   1
