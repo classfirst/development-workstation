@@ -39,7 +39,7 @@ Windows 11 환경에서 PowerShell, VS Code, Git, WSL 2, Docker Desktop을 설�
 - [x] GitHub 저장소 생성 및 원격 연결
 - [x] 터미널 및 권한 검증 증거 최종 정리
 - [x] GitHub 첫 커밋 및 푸시
-- [ ] 공개 저장소 최종 검수
+- [x] 공개 저장소 최종 검수
 
 ## 4. 프로젝트 구조
 
@@ -101,6 +101,7 @@ docker stats --no-stream
 - [Docker 웹 서버 로그](evidence/web-server-logs.txt)
 - [Docker 리소스 통계](evidence/web-stats.txt)
 - [터미널 및 권한 검증](evidence/terminal-permissions.txt)
+- [Docker 엔진 정보](evidence/docker-info-summary.txt)
 실행 결과는 `evidence/` 폴더에 보관합니다.
 
 ## 7. 바인드 마운트 검증
@@ -235,6 +236,10 @@ docker exec workstation-volume-new ls -l /data
 
 ## 11. 최종 결론
 
-Windows 11 기반 개발 워크스테이션을 구축하고 Dockerfile, 포트 매핑, 바인드 마운트 및 Docker 볼륨 영속성을 검증했습니다.
+Windows 11 환경에서 Git, VS Code, WSL 2 및 Docker Desktop을 활용한 개발 워크스테이션을 구축했습니다.
 
-소스코드, 기술 문서, 운영 로그와 증빙 자료를 GitHub 저장소에 정리하여 개발 환경의 재현성과 검증 가능성을 확보하는 것을 목표로 합니다.
+Dockerfile 기반 Python 웹 서버의 이미지 빌드, 컨테이너 실행, 포트 매핑, 바인드 마운트 및 Docker 볼륨 영속성을 검증했습니다.
+
+검증에 사용한 명령어, 실행 결과, 스크린샷, 트러블슈팅 기록을 GitHub 저장소에 정리하여 개발 환경의 재현성과 수행 결과의 확인 가능성을 확보했습니다.
+
+

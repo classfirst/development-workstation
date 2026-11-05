@@ -1,0 +1,1 @@
+﻿Server Version: 29.9.2; Operating System: Docker Desktop; OSType: linux; Architecture: x86_64
